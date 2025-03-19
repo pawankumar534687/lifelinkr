@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <img class="logo" src="images/logo.JPG" alt="">
+
+
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Why Choose Us </a></li>
+      <li><a href="#">Benefits </a></li>
+      <li><a href="#">FAQs</a></li>
+      <li><a style="color:rgba(22,50,90,255); background-color: white;" href="#">WhatApp Us</a></li>
+    </ul>
+  </nav>
+  <section>
+    <div class="hero animated">
+      <div class="hero-section animated">
+        <h1 class="hero-head">TAILORED IVF MANAGEMENT SOFTWARE FOR CLINICS </h1>
+        <p class="hero-pera">Your All-in-One Software for Enhanced IVF Clinic Management and Patient Experience </p>
+        <div class="icon-text">
+          <span><img class="first-icon" src="icons/online-test.png" alt="In-Built CRM">In-Built CRM </span>
+          <span><img class="first-icon" src="icons/document-management.png" alt="Patient Insight">Patient Insight
+          </span>
+          <span><img class="first-icon" src="icons/folder.png" alt="Custom Fit ">Custom Fit </span>
+          <span><img class="first-icon" src="icons/problem-solving.png" alt="Easy Connect">Easy Connect </span>
+          <span><img class="first-icon" src="icons/circular-graphic-with-triangle-separation.png"
+              alt="Info on-the-go">Info on-the-go
+          </span>
+          <span><img class="first-icon" src="icons/migration.png" alt="Data Transfer">Data Transfer </span>
+        </div>
+
+
+
+      </div>
+
+
+      <div class="form animated">
+        <h1 class="form-head">Schedule a Free Demo </h1>
+
+        <input class="first-input" type="text" placeholder="Clinic Name*">
+        <input class="first-input" type="text" placeholder="Company Email*">
+        <input class="first-input" type="text" placeholder="Mobile*">
+        <input class="first-input" type="text" placeholder="Clinic Location*">
+        <div class="checkbox">
+          <input type="checkbox">
+          I agree and accept the <span style="color: rgb(221, 221, 63); font-size: small;">Terms & Conditions </span>
+        </div>
+        <button class="Schedule-btn animated">Schedule demo <i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i>
+        </button>
+
+
+
+      </div>
+    </div>
+    <div class="second-page animated">
+      <div class="icon-head animated">
+        <img class="second-icons" src="icons/data.png" alt="">
+
+        <h4 class="head-class animated">Data Protection </h4>
+        <p class="pera-class animated">Protect Data Leakage With Strict Data Protection </p>
+      </div>
+      <div class="icon-head animated">
+        <img class="second-icons" src="icons/task-list.png" alt="">
+        <h4 class="head-class">Built In Task Manager </h4>
+        <p class="pera-class">Never Miss a Task, Get Notified at Each Approval </p>
+      </div>
+      <div class="icon-head animated">
+        <img class="second-icons" src="icons/demo.png" alt="">
+        <h4 class="head-class">Easy Walkthrough </h4>
+        <p class="pera-class">Access Patient Info Anytime, From any Screen </p>
+      </div>
+      <div class="icon-head animated">
+        <img class="second-icons" src="icons/route.png" alt="">
+        <h4 class="head-class">Map Patients Journey </h4>
+        <p class="pera-class">Step Linked Progression Bar to Know Milestones </p>
+      </div>
+      <div class="icon-head animated">
+        <img class="second-icons" src="icons/computer.png" alt="">
+        <h4 class="head-class">One Stop Solution </h4>
+        <p class="pera-class">No Need For Multiple Software Just Use One </p>
+      </div>
+      <div class="icon-head animated">
+        <img class="second-icons" src="icons/artificial-intelligence.png" alt="">
+        <h4 class="head-class">Al Integration </h4>
+        <p class="pera-class">TTS and Al Integrated to Reduce Humane Error</p>
+      </div>
+    </div>
+    <div class="web-parent animated">
+      <h1 class="why-choose">Why Choose Us? </h1>
+      <div class="web-head-pera animated">
+        <img class="web-img" src="images/img1.jpg" alt="">
+        <div>
+          <h4 class="web-head animated">1. Seamless Patient Management </h4>
+          <p class="web-pera">Effortlessly manage patient records, appointments, communications and history in a
+            centralized, secure platform tailored for IVF clinics, enhancing efficiency <span>Read More </span></p>
+        </div>
+
+      </div>
+      <div class="web-head-pera animated">
+        <img class="web-img" src="images/img2.jpg" alt="">
+        <div>
+          <h4 class="web-head animated">2. Detailed IVF Cycle Tracking </h4>
+          <p class="web-pera">Track each stage of the IVF cycle, from egg retrieval to embryo transfer, with real-time
+            updates and data-driven insights for better outcomes improving decision <span>Read More</span> </p>
+        </div>
+
+      </div>
+      <div class="web-head-pera animated">
+        <img class="web-img" src="images/img3.jpg" alt="">
+        <div>
+          <h4 class="web-head  animated">3. Automated Billing & Finance Integration </h4>
+          <p class="web-pera">Streamline complex IVF billing processes with automated milestone-based, package billing
+            and insurance management in one easy-to-use system, reducing <span>Read More</span> </p>
+        </div>
+
+      </div>
+      <div class="web-head-pera">
+        <img class="web-img" src="images/img4.jpg" alt="">
+        <div>
+          <h4 class="web-head">4. Lab Management </h4>
+          <p class="web-pera">Optimize lab operations by tracking embryo development, managing cryostorage and
+            maintaining compliance with Laboratory standards, all while ensuring <span>Read More</span> </p>
+        </div>
+
+      </div>
+      <div class="web-head-pera animated">
+        <img class="web-img" src="images/img5.jpg" alt="">
+        <div>
+          <h4 class="web-head animated">5. Reporting & Compliance </h4>
+          <p class="web-pera">Generate accurate, automated reports and ensure your clinic meets regulatory standards
+            while tracking performance metrics and patient outcomes <span>Read More.</span></p>
+        </div>
+
+      </div>
+    </div>
+    <div class="forth-page-parent animated">
+      <h1 class="benefits-icon animated">Benefits You Will Gain </h1>
+      <div class="forth-page-child animated">
+        <div class="icon-parent animated">
+          <img class="icon-img" src="images/img6.JPG" alt="">
+          <h4 class="text-icon animated">Optimize <span>Operations</span> </h4>
+        </div>
+        <div class="icon-parent animated">
+          <img class="icon-img" src="images/img7.JPG" alt="">
+          <h4 class="text-icon animated">Leverage CRM for <span>Patient
+              Growth</span> </h4>
+        </div>
+        <div class="icon-parent animated">
+          <img class="icon-img" src="images/img8.JPG" alt="">
+          <h4 class="text-icon">Simplify <span>Financial Processes</span> </h4>
+        </div>
+        <div class="icon-parent animated">
+          <img class="icon-img" src="images/img9.JPG" alt="">
+          <h4 class="text-icon">Enhanced <span>Data Security</span> </h4>
+        </div>
+        <div class="icon-parent animated">
+          <img class="icon-img" src="images/img10.JPG" alt="">
+          <h4 class="text-icon">Simplify <span>Financial Processes</span> </h4>
+        </div>
+        <div class="icon-parent animated">
+          <img class="icon-img" src="images/img11.JPG" alt="">
+          <h4 class="text-icon">Forever <span>Medical Records</span></h4>
+        </div>
+      </div>
+    </div>
+    <div class="feifth-page animated">
+      <h1 class="head-faqs">FAQs</h1>
+      <img class="last-long-img" src="images/img12.JPG" alt="">
+      <div class="div-web-last-head">
+        <div class="web-last-head animated">
+          <h4 class="">What features does LifeLinkr software include for clinics? <span><img src="icons/arrow (1).png"
+                alt=""></span></h4>
+          <p class="web-last-pera">LifeLinkr includes patient management, appointment scheduling, billing, EHR, and
+            customizable dashboards to streamline clinic operations</p>
+        </div>
+        <h4 class="web-last-head">Is LifeLinkr software suitable for individual doctors? <span><img
+              src="icons/arrow.png" alt=""></span></h4>
+        <h4 class="web-last-head">How secure is patient data in LifeLinkr software? <span><img src="icons/arrow.png"
+              alt=""></span></h4>
+        <h4 class="web-last-head animated">Can I customize the LifeLinkr dashboard style? <span><img src="icons/arrow.png"
+              alt=""></span></h4>
+        <h4 class="web-last-head">What are the pricing plans for LifeLinkr? <span><img src="icons/arrow.png"
+              alt=""></span></h4>
+      </div>
+      <h5 class="loadmore animated">Load more</h5>
+    </div>
+    <div class="last-form-parent animated">
+      <h1 class="last-input-head">Schedule a Free Demo </h1>
+      <h3 class="last-input-second-head animated">Experience Seamless <span>Healthcare Management </span> with LifeLinkr </h3>
+      <div class="last-form-child">
+        <div class="last-input-child animated">
+          <input class="last-input" type="text" placeholder="Full Name* ">
+          <input class="last-input" type="text" placeholder="Email Address* ">
+          <input class="last-input" type="text" placeholder="Phone Number* ">
+          <input class="last-input" type="text" placeholder="WhatsApp Number* ">
+          <input class="last-input" type="text" placeholder="Clinic Name* ">
+          <input class="last-input" type="text" placeholder="Country* ">
+          <input class="last-input" type="text" placeholder="City* ">
+          <input class="last-input" type="text" placeholder="No. of User ">
+        </div>
+
+        <input class="last-input last-two-input animated" type="text" placeholder="Currently Using Any Software?" ">
+        <br>
+        <textarea class=" last-input last-two-input last animated" placeholder="Message*" name="" id=""></textarea>
+        <div class="last-input-div animated"> <input type="checkbox">I agree and accept the <span class="span-term">Terms &
+            Conditions </span></div>
+
+      </div>
+      <button class="Schedule-btn animated">Schedule demo <i class="fa-solid fa-arrow-right" style="color: #FFD43B;"></i>
+    </div>
+    <div class="sevanth-page">
+      <h1 class="second-page-head">Managing ART Made Hassle Free  </h1>
+      <div class="sevanth-page-child-div">
+        <img class="sevanth-page-img" src="images/img13.JPG" alt="">
+        <p class="sevanth-page-pera">
+        <ul class="pera-ul">
+          <li>Comprehensive and secure platform for managing IVF and reproductive health information. </li>
+          <li>Centralizes patient data, lab records, treatment cycles, and financial information. </li>
+          <li>Designed specifically for fertility clinics, making critical information easily accessible.
+            <span class="loadmore">Read More. </span>
+
+          </li>
+          <button class="Schedule-btn blue animated">Schedule demo <i class="fa-solid fa-arrow-right"
+              style="color: #FFD43B;"></i></button>
+
+
+        </ul>
+
+
+        </p>
+
+
+      </div>
+    </div>
+    <div class="sevanth-page animated">
+      <h1 class="second-page-head">Stay Focused, No More Software Hopping </h1>
+      <div class="sevanth-page-child-div">
+        
+        <p class="sevanth-page-pera animated">
+        <ul class="pera-ul">
+          <li>Comprehensive and secure platform for managing IVF and reproductive health information. </li>
+          <li>Centralizes patient data, lab records, treatment cycles, and financial information. </li>
+          <li>Designed specifically for fertility clinics, making critical information easily accessible.
+            <span class="loadmore">Read More. </span>
+
+          </li>
+          <button class="Schedule-btn blue animated">Schedule demo <i class="fa-solid fa-arrow-right"
+              style="color: #FFD43B;"></i></button>
+
+
+        </ul>
+        <img style="padding-right: 5vh;" class="sevanth-page-img" src="images/img14.JPG" alt="">
+
+
+        </p>
+
+
+      </div>
+    </div>
+   
+
+
+
+
+    
+
+
+
+  </section>
+  <footer class="footer-tag animated">
+    <div class="footer">
+      <img class="last-logo animated" src="images/logo.JPG" alt="">
+      <h5 class="last-heading">All Rights Reserved 2023-24© Copyright - LifeLinkr | </h5>
+      <p class="last-pera-privacy animated">Privacy Policy | 
+        Ads Policy | 
+        Data Privacy | 
+        Disclaimer | 
+        User Agreement | 
+        Intellectual Property Rights | 
+        Cookie 
+        Enter Your Phone Number 
+        Policy | 
+        Refund Policy | 
+        Contact Information | 
+        Accessibility Statement | 
+        Security Policy | 
+        GDPR Compliance </p>
+    </div>
+    <div class="last-input-label animated">
+      <label  for="Number">
+        SCHEDULE YOUR DEMO 
+       
+        
+      </label>
+     
+      <input class="last-input-word animated" type="text"  id="Number" placeholder="Enter Your Phone Number">
+      <button class="last-btn animated">Book Appointment</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
